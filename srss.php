@@ -1,5 +1,5 @@
 )<?php
-$SPAM = "5795044372:AAHhnfi7gXIIq6cV05s_cyH4LXvl1Lx67u4";
+$SPAM = "5839098816:AAE--5M_OP9VXmLimop4ySlcVTmARn1N4Gw";
 define('API_KEY',"$SPAM");
 function bot($method,$datas=[]){
 $ch = curl_init();
@@ -32,15 +32,15 @@ $name = $message->from->first_name.$message->from->last_name;
 $TW2AX = "https://github.com/ahmad3641/ahmadaslamat/upload";
 @mkdir("users");
 @mkdir("data");
-$sudo = 1784737233;
+$sudo = 5011123303;
 $update= json_decode(file_get_contents('php://input'));
 $message= $update->message;
 $text   = $message->text;
 $chat_id= $message->chat->id;
 $from_id= $message->from->id;
 $files = $message->document;
-$admin = 1784737233;
-$sudo = 1784737233;
+$admin = 5011123303;
+$sudo = 5011123303;
 $update = json_decode(file_get_contents('php://input'));
 if($update->message){
 	$message = $update->message;
